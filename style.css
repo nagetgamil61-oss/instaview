@@ -1,0 +1,155 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.col-md-2 {
+    background-color: white;
+    min-height: 100vh;
+    padding: 25px;
+    border-right: 1px solid #ddd;
+}
+
+.col-md-2 p {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.col-md-2 p:hover {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.col-md-7 {
+    padding: 30px;
+}
+
+.col-md-3 {
+    padding: 30px;
+}
+
+hr {
+    margin: 30px 0;
+}
+.stories {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.story {
+    text-align: center;
+}
+
+.story img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 3px solid #e1306c;
+    object-fit: cover;
+}
+
+.story p {
+    font-size: 13px;
+    margin-top: 8px;
+}
+.post {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+.post-actions {
+    padding: 12px;
+    font-size: 25px;
+    display: flex;
+    gap: 18px;
+    cursor: pointer;
+}
+
+.post p {
+    padding: 0 12px 12px;
+}
+.like-btn {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.like-btn.liked {
+    color: red;
+}
+.like-btn {
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.like-btn.liked {
+    color: red;
+}
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.suggestion button {
+    background: none;
+    border: none;
+    color: #0095f6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.suggestion button:hover {
+    color: #00376b;
+}
+.col-md-2 h2 {
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.col-md-2 p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.col-md-2 p:hover {
+    background-color: #eeeeee;
+    transform: translateX(4px);
+}
